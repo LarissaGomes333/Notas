@@ -1,0 +1,97 @@
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            /* background-image: url("azul.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;     */
+            background-color: white;
+        }
+        
+        #mediaGeral {
+            margin-left: 20%;
+        }
+        
+        p .linhaa {
+            border-bottom: 2px solid black;
+            margin-top: 2%;
+            margin-bottom: 3%;
+        }
+        
+        #botoes {
+            margin-left:12%;
+        }
+        
+        table {
+            text-align: center;
+        }
+        
+        #tableHead {
+            right: 500px;
+        }
+        
+        #mudarBnt {
+            margin-left: 50px;
+        }
+        
+        #corpo {
+            margin-right: 20%;
+        }
+        /* #cadas {
+    margin-left: 30%;
+    margin-bottom: 5%;
+}
+
+#grade {
+    margin-right: 10%;
+} */
+        
+        #titulo {
+            margin-left: 200px;
+            text-align: center;
+            color: white;
+            background-color: rgb(0, 153, 255);
+        }
+        
+        #linha0 {
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        .content-table {
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            min-width: 400px;
+            border-radius: 5px 5px 0 0;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+            width: 1500px;
+        }
+        
+        .content-table thead tr {
+            background-color: #981200;
+            color: #ffffff;
+            text-align: left;
+            font-weight: bold;
+        }
+        
+        .content-table th,
+        .content-table td {
+            padding: 12px 15px;
+        }
+        
+        .content-table tbody tr {
+            border-bottom: 1px solid gray;
+        }
+        
+        .content-table tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+        
+        .content-table tbody tr:last-of-type {
+            border-bottom: 2px solid #006098;
+        }
+        
+        .content-table tbody tr.active-row {
+            font-weight: bold;
+            color: #009879;
+        }
